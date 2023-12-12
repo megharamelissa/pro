@@ -1,0 +1,135 @@
+/* NavbarVertical.css */
+.navbar-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #5BAF2F;
+  position: relative;
+  width: 15rem;
+  padding: 2rem 0;
+  border-top-right-radius: 20px; /* Ajoutez le rayon pour le coin haut-droit */
+  border-bottom-right-radius: 20px;
+}
+
+.navbar-link-vertical {
+  position: relative;
+  box-sizing: border-box;
+  color: #363636;
+  font-size: 1.05rem;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding: 2rem;
+  width: 100%;
+  border-bottom: 1px solid #363636;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.menu-icon {
+  margin-right: 0.1rem;
+}
+
+.navbar-brand {
+ 
+  font-size: 3rem;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-bottom: 0rem;
+  padding: 2rem;
+ /* Aligne le contenu en haut */
+}
+
+.navbar-logo {
+  color: #363636;
+  text-decoration: none;
+  margin-left: -1rem;
+  font-size: 1.35rem;
+ 
+  
+}
+.search-container {
+  position: fixed;
+  top: 0;
+  right: 0rem;
+  margin: 1rem;
+  z-index: 999; /* Assurez-vous que la barre de recherche est au-dessus du contenu */
+}
+
+/* Add additional styles as needed */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 1rem 2rem;
+  position: relative;
+  margin-top: -0.5rem;
+  margin-right: 39.5rem;
+  /* Ajout d'une position relative pour positionner l'icône */
+  
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  margin-right: 1.8rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  padding-left: 3rem;
+  width: 350px;
+  /* Ajout de l'espace à gauche pour l'icône */
+}
+
+.search-bar .search-icon {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 8px; /* Ajustez la position à gauche selon vos besoins */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.search-bar input::placeholder {
+  color: #aaa;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+.notification-icon {
+  color: #363636;
+  font-size: 2rem;
+  
+  padding: 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: -0.5rem;
+  right: 17rem;
+}
+.user-profile {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  display: flex;
+  align-items: center;
+  border: 0.75px solid #363636;
+  border-radius: 10px;
+  padding: 5px;
+  width: 250px;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px; /* Ajoutez la marge à droite de la photo */
+}
+
+.user-name {
+  margin: 0;
+  font-size: 18.5px; 
+  font-weight: bold;
+  color: #363636;
+  font-family: 'Montserrat', sans-serif;
+}

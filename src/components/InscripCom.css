@@ -1,0 +1,141 @@
+.photo {
+    width: 160px; /* Ajustez la taille de la photo selon vos besoins */
+    height: 180px; /* Ajustez la taille de la photo selon vos besoins */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #FFFFFF; /* Ajoutez une bordure si nécessaire */
+    
+    z-index: 1;
+    position: relative;
+  }
+  
+  
+  .Inscrip {
+    position: fixed;
+    top: 16rem;
+    right: 67.75rem;
+    display: flex;
+    align-items: center;
+  }
+  .circle {
+    width: 160px; /* Assurez-vous que la taille correspond à la taille de la photo */
+    height: 180px; /* Assurez-vous que la taille correspond à la taille de la photo */
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -0.5rem;
+    left: -0.5rem;
+    z-index: 0;
+  }
+  .users-count-container5 {
+    position: absolute; /* Changez en 'relative' si vous souhaitez positionner par rapport au flux normal */
+    top: 8.2rem; /* Ajustez la distance du haut selon vos besoins */
+    right: 71rem; /* Ajustez la distance de la droite selon vos besoins */
+    font-family: 'Montserrat', sans-serif; /* Changez cela en la police que vous préférez */
+    font-size: 30px; /* Ajoutez la taille de police souhaitée */
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  .users-count-container6 {
+    position: absolute; /* Changez en 'relative' si vous souhaitez positionner par rapport au flux normal */
+    top: 8.2rem; /* Ajustez la distance du haut selon vos besoins */
+    right: 65.5rem; /* Ajustez la distance de la droite selon vos besoins */
+    font-family: 'Montserrat', sans-serif; /* Changez cela en la police que vous préférez */
+    font-size: 30px; /* Ajoutez la taille de police souhaitée */
+    color: #363636;
+    font-weight: bold;
+  }
+  .users-count-container7 {
+    position: absolute; /* Changez en 'relative' si vous souhaitez positionner par rapport au flux normal */
+    top: 10.5rem; /* Ajustez la distance du haut selon vos besoins */
+    right: 67rem; /* Ajustez la distance de la droite selon vos besoins */
+    font-family: 'Montserrat', sans-serif; /* Changez cela en la police que vous préférez */
+    font-size: 30px; /* Ajoutez la taille de police souhaitée */
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  .users-count-container8 {
+    position: absolute; /* Changez en 'relative' si vous souhaitez positionner par rapport au flux normal */
+    top: 0.5em; /* Ajustez la distance du haut selon vos besoins */
+    right: 40rem; /* Ajustez la distance de la droite selon vos besoins */
+    font-family: 'Montserrat', sans-serif; /* Changez cela en la police que vous préférez */
+    font-size: 25px; /* Ajoutez la taille de police souhaitée */
+    color: #363636;
+    font-weight: bold;
+  }
+  .users-count-container9 {
+    position: absolute; /* Changez en 'relative' si vous souhaitez positionner par rapport au flux normal */
+    top: 0.5em; /* Ajustez la distance du haut selon vos besoins */
+    right: 31.5rem; /* Ajustez la distance de la droite selon vos besoins */
+    font-family: 'Montserrat', sans-serif; /* Changez cela en la police que vous préférez */
+    font-size: 25px; /* Ajoutez la taille de police souhaitée */
+    color: #5BAF2F;
+    font-weight: bold;
+  }
+  .users-count-container10 {
+    position: absolute; /* Changez en 'relative' si vous souhaitez positionner par rapport au flux normal */
+    top: 2.25em; /* Ajustez la distance du haut selon vos besoins */
+    right: 19rem; /* Ajustez la distance de la droite selon vos besoins */
+   
+  }
+ 
+  .user-form input {
+    /* Styles spécifiques aux champs input à l'intérieur de user-form */
+    display: block;
+    
+    padding: 8px;
+    margin: 5px;
+    width: 40rem;
+    color: #363636;
+    /* Ajoutez d'autres styles nécessaires */
+  }
+  
+  /* Sélecteur basé sur le type d'élément label à l'intérieur de la classe user-form */
+  .user-form label {
+    /* Styles spécifiques aux balises label à l'intérieur de user-form */
+    margin-bottom: 4px;
+    display: block;
+    text-align:left;
+    font-size: 1rem;
+    color: #363636;
+    
+    /* Ajoutez d'autres styles nécessaires */
+  }
+  
+  .user-form select {
+    margin: 4px;
+    margin-top: 1.2rem;
+    padding: 8px;
+    width: 31.8%;
+    border-radius: 10px;
+    font-size: 16px;
+    
+  appearance: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23363636" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M19 9l-7 7-7-7"></path></svg>');
+}
+.category-selectt {
+    margin: 4px;
+    margin-top: 1.2rem;
+    
+    padding: 8px;
+    width: 98%;
+    border-radius: 10px;
+    font-size: 16px;
+     /* Ajustez la largeur selon vos besoins */
+    /* Autres styles spécifiques si nécessaire */
+  }
+
+  .create-account-button {
+    margin-top: 1px; /* Ajustez la marge selon vos besoins */
+    padding: 8px 20px;
+    font-size: 16px;
+    width: 20rem;
+    background-color: #5BAF2F; /* Couleur de fond du bouton */
+    color: #FFFFFF; /* Couleur du texte du bouton */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    /* Ajoutez d'autres styles nécessaires */
+  }

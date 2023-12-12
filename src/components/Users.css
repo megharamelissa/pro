@@ -1,0 +1,126 @@
+
+.table-container {
+  width: 59rem;
+  overflow-x: auto;
+  margin-top: -5rem;
+  margin-left: -39px;
+}
+
+table {
+  width: 70vw;
+  border-collapse: collapse;
+}
+thead tr {
+  border-bottom: 1px solid #363636; /* Ajoute une bordure en bas de la ligne */
+}
+
+th, td {
+  padding: 6px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #363636;
+}
+
+th {
+  color: #363636;
+ 
+}
+
+.users-page {
+  position: relative;
+  overflow-y: auto;
+  height: calc(89vh - 80px); /* Ajustez la hauteur selon vos besoins */
+  padding: 60px; /* Ajoutez un espacement intérieur si nécessaire */
+  margin-top: -29rem;
+  margin-left: 14rem;
+}
+
+td:first-child {
+  width: 200px; /* Définissez une largeur fixe pour la colonne des noms d'utilisateur */
+}
+
+td {
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 2px;
+}
+
+.checkbox-column {
+  vertical-align: middle; /* Alignement vertical au centre */
+}
+.status-column {
+  display: flex;
+  align-items: center;
+  margin-left: 75px; /* Ajustez cette valeur selon vos besoins */
+}
+
+.status-circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.status-circle.actif {
+  background-color: green;
+}
+
+.status-circle.bloqué {
+  background-color: red;
+}
+.button-container {
+  position: absolute;
+  top: 6rem; /* Ajustez la distance du haut selon vos besoins */
+  right: 8.2rem; /* Ajustez la distance de la droite selon vos besoins */
+  display: flex;
+}
+
+
+.button-separator {
+  width: 10px; /* Espace entre les boutons */
+}
+
+.block-button {
+  border: 2px solid green; /* Couleur de la bordure pour le bouton Bloquer */
+  background-color: transparent; /* Fond transparent */
+  color: 363636(42, 24, 24); /* Couleur du texte */
+  padding: 10px 10px;
+  
+}
+
+.unblock-button {
+  border: 2px solid red; /* Couleur de la bordure pour le bouton Bloquer */
+  background-color: transparent; /* Fond transparent */
+  color: 363636(42, 24, 24); /* Couleur du texte */
+  padding: 10px 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+/* Ajoutez ce style pour définir l'emplacement et la police du texte */
+/* Ajoutez ce style pour définir l'emplacement du texte */
+.users-count-container {
+  position: absolute; /* Changez en 'relative' si vous souhaitez positionner par rapport au flux normal */
+  top: 6.7rem; /* Ajustez la distance du haut selon vos besoins */
+  right: 52rem; /* Ajustez la distance de la droite selon vos besoins */
+  font-family: 'Montserrat', sans-serif; /* Changez cela en la police que vous préférez */
+  font-size: 20px; /* Ajoutez la taille de police souhaitée */
+  color: #363636;
+  font-weight: bold;
+}
+
+/* Ajoutez ce style pour définir l'emplacement du contenu */
+.content-container {
+  position: relative; /* Assurez-vous que le contenu reste dans le flux normal */
+}

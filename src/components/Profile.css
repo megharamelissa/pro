@@ -1,0 +1,25 @@
+/* UserProfile.css */
+.user-profile {
+  position: absolute;
+  top: 10px; /* Ajustez la position verticale en haut */
+  right: 10px; /* Ajustez la position horizontale à droite */
+  display: flex;
+  align-items: center;
+  border: 2px solid #060505; /* Changez la couleur et l'épaisseur de la bordure selon vos préférences */
+  border-radius: 10px; /* Ajustez cette valeur pour changer la courbure des coins du rectangle */
+  padding: 5px; 
+}
+
+.user-photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transform: rotate(90deg); /* Rotation du triangle à 90 degrés pour le placer horizontalement */
+}
+
+.username {
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 600;
+}

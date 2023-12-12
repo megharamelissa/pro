@@ -1,0 +1,68 @@
+/* Mprofil.css */
+
+.mprofil {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mprofil form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 18rem;
+  margin-top: -32rem;
+}
+
+.mprofil label {
+  margin-bottom: 10px;
+  margin-left: 0;
+  align-self: flex-start;
+}
+
+.mprofil input {
+  width: 300%;
+  padding: 8px;
+  margin-bottom: 16px;
+  margin-left: -0.5rem;
+}
+
+.select-count{
+  position: relative;
+  margin-top: -26rem;
+  margin-right: -46.65em;
+  
+}
+.select-count select {
+  width: 44.25rem;
+  padding: 8.5px;
+  margin-bottom: 16px;
+
+  
+
+}
+.mprofil label {
+  margin-left: -100px; /* Ajustez la marge négative selon vos besoins */
+}
+
+
+
+
+.users-count-container3 {
+  position: absolute; /* Changez en 'relative' si vous souhaitez positionner par rapport au flux normal */
+  top:1rem; /* Ajustez la distance du haut selon vos besoins */
+  right: 30rem; /* Ajustez la distance de la droite selon vos besoins */
+  font-family: 'Montserrat', sans-serif; /* Changez cela en la police que vous préférez */
+  font-size: 45px; /* Ajoutez la taille de police souhaitée */
+  color: #363636;
+  font-weight: bold;
+}
+.users-count-container4 {
+  position: absolute; /* Changez en 'relative' si vous souhaitez positionner par rapport au flux normal */
+  top: 1rem; /* Ajustez la distance du haut selon vos besoins */
+  right: 22.45rem; /* Ajustez la distance de la droite selon vos besoins */
+  font-family: 'Montserrat', sans-serif; /* Changez cela en la police que vous préférez */
+  font-size: 45px; /* Ajoutez la taille de police souhaitée */
+  color: #5BAF2F;
+  font-weight: bold;
+}
